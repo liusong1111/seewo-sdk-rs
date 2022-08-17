@@ -11,7 +11,7 @@ If you use rust to call seewo open api, you can fork this repository and impleme
 ## Usage
 
 ```rust
-use seewo_sdk::{SeewoClient, OtherDeviceV1StreamingStartRequest};
+use seewo_sdk::{SeewoClient, SeewoTypedRequest, OtherDeviceV1StreamingStartRequest};
 
 // initiate SeewoClient by reading environment variables: `SEEWO_APP_ID`, `SEEWO_APP_SECRET`.
 // or use `SeewoClient::new(app_id, app_secret)` implicitly.
